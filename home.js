@@ -32,3 +32,41 @@ console.log(num1 % 5);
 // Increment/decrement by 10
 num1 += 10;
 console.log(num1);
+
+/* Functions
+1. create a function
+2. call the function
+*/
+
+// Create
+function fun() {
+  console.log("this is a function");
+}
+
+// Call
+fun();
+
+/* take in a name and says hello followed by your name
+
+For example
+Name: "Kei"
+Return: "Hello Kei"
+*/
+
+function greeting(yourName) {
+  var result = "Hello " + yourName;
+  console.log(result);
+}
+
+var name = prompt("What is your name?");
+greeting(name);
+
+// How do arguments work in functions?
+// How do we add 2 numberrs together in a function?
+
+function sumNumbers(num1, num2) {
+  var result = num1 + num2;
+  console.log(num1 + num2);
+}
+
+sumNumbers(10, 10);
