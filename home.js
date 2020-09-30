@@ -58,8 +58,8 @@ function greeting(yourName) {
   console.log(result);
 }
 
-var name = prompt("What is your name?");
-greeting(name);
+//var name = prompt("What is your name?");
+//greeting(name);
 
 // How do arguments work in functions?
 // How do we add 2 numberrs together in a function?
@@ -70,3 +70,19 @@ function sumNumbers(num1, num2) {
 }
 
 sumNumbers(10, 10);
+
+/* While loops
+
+var num = 0;
+
+while (num < 100) {
+  num += 1;
+  console.log(num);
+}
+
+*/
+
+// For loops
+for (let num = 0; num <= 100; num++) {
+  console.log(num);
+}
