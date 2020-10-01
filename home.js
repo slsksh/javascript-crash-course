@@ -180,3 +180,39 @@ let student = {
 student.age++;
 console.log(student.age);
 console.log(student.studentInfo());
+
+// Conditionals, Control flows (if else)
+// 18-35 is my target demographic
+// && AND
+// || OR
+var age = 45;
+
+if (age >= 18 && age <= 35) {
+  status = "target demo";
+  console.log(status);
+} else {
+  status = "not my audience";
+  console.log(status);
+}
+
+// Switch statements
+// differentiate between weekday VS. weekend
+// day0 --> Sunday
+// day6 --> Saturday
+// day4 --> Thursday --> weekday
+
+switch (6) {
+  case 0:
+    text = "weekend";
+    break;
+  case 5:
+    text = "weekend";
+    break;
+  case 6:
+    text = "weekend";
+    break;
+  default:
+    text = "weekday";
+}
+
+console.log(text);
