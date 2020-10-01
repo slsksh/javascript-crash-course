@@ -160,3 +160,23 @@ for (let num = 0; num < 10; num++) {
   emptyArray.push(num);
 }
 console.log(emptyArray);
+
+// Objects in Javascript
+// dictiionaries in Python
+
+let student = {
+  first: "lucy",
+  last: "kei",
+  age: 10,
+  height: 170,
+  studentInfo: function () {
+    return this.first + "\n" + this.last + "\n" + this.age;
+  },
+};
+//console.log(student.first);
+//console.log(student.last);
+//student.first = "notlucy"; //change value
+//console.log(student.first);
+student.age++;
+console.log(student.age);
+console.log(student.studentInfo());
